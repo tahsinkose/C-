@@ -1,3 +1,5 @@
+/* A Bank simulation that uses pointer based Queue and List ADTs */
+
 #include <fstream>
 
 #include "List.hpp"
