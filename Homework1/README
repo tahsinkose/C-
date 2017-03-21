@@ -1,0 +1,39 @@
+These are the files you will work on and then submit:
+
+Stack.hpp  LinkedList.hpp  Node.hpp
+Browser.cpp  Browser.hpp  Tab.cpp  Tab.hpp
+
+
+Use lines below to test your work.
+Check output differences with "diff" command.
+Note that the pointer values will differ and 
+    they will not be used in evaluation of your work.
+
+>: redirects stdout to given file
+2>: redirects stderr to given file
+2>&1: redirects stderr to stdout
+>>: appends to old file 
+
+STACK
+g++ test_stack.cpp -o stack
+./stack
+./stack > test_stack.out 2> test_stack.err
+
+LIST
+g++ test_list.cpp -o list
+./list
+./list > test_list.out 2> test_list.err
+
+BROWSER
+g++ test_browser.cpp Browser.cpp Tab.cpp -o browser
+./browser test_browser_1.txt
+./browser test_browser_1.txt > test_browser_1.out
+./browser test_browser_2.txt
+./browser test_browser_2.txt > test_browser_2.out
+./browser test_browser_3.txt
+./browser test_browser_3.txt > test_browser_3.out
+./browser test_browser_4.txt
+./browser test_browser_4.txt > test_browser_4.out 2> test_browser_4.err
+
+DIFF
+diff test_browser_4.out test_outputs/test_browser_4.out

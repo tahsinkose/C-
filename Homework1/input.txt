@@ -1,0 +1,2 @@
+open_new_page 0.com
+forward
