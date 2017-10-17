@@ -5,9 +5,13 @@
 #include <vector>
 #include <algorithm>
 #include <iomanip>
+#include <chrono>
+
+
 
 using namespace std;
-
+using  ns = chrono::nanoseconds;
+using get_time = chrono::steady_clock ;
 
 template < class T >
 std::ostream& operator << (ostream& os, const vector<T>& v) 
@@ -57,6 +61,7 @@ vector<int>::iterator Min_element(vector<int>::iterator it1,vector<int>::iterato
 }
 
 int main(){
+	auto start = get_time::now();
     int t;
     cin >> t;
     for(int a0 = 0; a0 < t; a0++){
@@ -106,6 +111,8 @@ int main(){
        }
        cout<<endl;
     }
+	auto end = get_time::now();
+	auto differ = end - start;
+	cout<<"Elapsed time is :  "<< chrono::duration_cast<ns>(differ).count()<<" ns "<<endl;
     return 0;
 }
-
