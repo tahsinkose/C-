@@ -1,0 +1,7 @@
+It is pretty easy to run this little string matcher with primal GUI output in command line.
+
+In your terminal type the commands below as are:
+1- make
+2- make fn=<your_file_name> pattern=<your_pattern>
+
+Then, ta da.
