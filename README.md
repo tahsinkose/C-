@@ -1,2 +1,2 @@
 # C++
-C++ codes, implementation of data structures and special applications.
+C++ codes, implementation of Data structures & Algorithms and special applications.
