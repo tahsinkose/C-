@@ -1,0 +1,32 @@
+At range [0-9] 
+At range [5-9] 
+At range [8-9] 
+2392149
+At range [0-9] 
+At range [0-4] 
+At range [0-2] 
+At range [3-4] 
+At range [5-9] 
+At range [5-7] 
+At range [5-6] 
+At range [8-9] 
+At range [0-9] 
+At range [5-9] 
+At range [5-7] 
+At range [5-6] 
+At range [0-9] 
+At range [5-9] 
+At range [5-7] 
+At range [5-6] 
+1556342
+389763
+At range [0-9] 
+At range [0-4] 
+At range [0-2] 
+At range [0-1] 
+835791
+At range [0-9] 
+At range [5-9] 
+At range [5-7] 
+At range [5-6] 
+Elapsed time is :  232812 ns 
