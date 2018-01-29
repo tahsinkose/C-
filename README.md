@@ -1,2 +1,2 @@
 # C++
-C++ codes, implementation of Data structures & Algorithms and special applications.
+C++ codes, Hackathon problems and solutions, implementation of Data structures & Algorithms and special applications.
